@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Membaca file all_data.csv untuk pertanyaan 1 dan 2
-all_data = pd.read_csv('../data/all_data.csv')
+all_data = pd.read_csv('https://raw.githubusercontent.com/Bennykw404/Submmission-Data-Analis/refs/heads/main/data/all_data.csv')
 
 # Membaca file geolocation.csv untuk pertanyaan 3
 geolocation = pd.read_csv('../data/geolocation.csv')
