@@ -4,7 +4,7 @@ import pandas as pd
 all_data = pd.read_csv('https://raw.githubusercontent.com/Bennykw404/Submmission-Data-Analis/refs/heads/main/data/all_data.csv')
 
 # Membaca file geolocation.csv untuk pertanyaan 3
-geolocation = pd.read_csv('../data/geolocation.csv')
+geolocation = pd.read_csv('https://raw.githubusercontent.com/Bennykw404/Submmission-Data-Analis/refs/heads/main/data/geolocation.csv')
 
 # Menghitung jumlah pembelian per kota dan provinsi
 purchase_frequency_city = all_data.groupby(['customer_city', 'customer_state'])['customer_unique_id'].count().reset_index()
